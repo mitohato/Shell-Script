@@ -1,0 +1,4 @@
+#!/bin/sh
+
+command="kotlinc $1.kt -include-runtime -d $1.jar"
+eval $command
