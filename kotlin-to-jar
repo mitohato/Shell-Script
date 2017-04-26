@@ -1,4 +1,8 @@
 #!/bin/sh
 
-command="kotlinc $1.kt -include-runtime -d $1.jar"
+str=$1
+if [ ${str#*.} = "kt" ]; then
+  str=${str%.*}
+fi
+command="kotlinc ${str}.kt -include-runtime -d ${str}.jar"
 eval $command
