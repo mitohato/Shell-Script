@@ -6,3 +6,4 @@ if [ ${str#*.} = "kt" ]; then
 fi
 command="kotlinc ${str}.kt -include-runtime -d ${str}.jar"
 eval $command
+
