@@ -8,7 +8,7 @@
 
 - 例  
 
-```
+```bash
 vim Hoge.kt
 kotlin-to-jar Hoge.kt
 java -jar Hoge.jar
@@ -16,7 +16,7 @@ java -jar Hoge.jar
 
 or  
 
-```
+```bash
 vim Foo.kt
 kotlin-to-jar Foo
 java -jar Foo.jar
