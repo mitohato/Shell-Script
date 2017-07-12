@@ -1,4 +1,5 @@
 function kotline
   set str (string split . $argv[1])
-  eval kotlinc {$str[1]}.kt -include-runtime -d {$str[1]}.jar; java -jar {$str[1]}.jar
+  eval kotlinc {$str[1]}.kt -include-runtime -d {$str[1]}.jar
+  eval java -jar {$str[1]}.jar
 end
