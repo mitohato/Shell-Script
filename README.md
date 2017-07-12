@@ -9,7 +9,7 @@
   コマンドを実行するとファイル名.jarが生成される
 
 - /usr/local/bin/ (macの場合)とかに置くとコマンドとして使える(bash,zsh)  
-- ~/.config/fish/functions/に置く  
+- ~/.config/fish/functions/に置く(fish)  
 
 - 例  
 
