@@ -1,27 +1,26 @@
 # Shell-Script
 
-## kotlin-to-jar
+## kotline
 ### 環境
 - kotlincとjavaが入ってること
 
 ### 使い方  
-- kotlin-to-jar ファイル名(拡張子の有無は問わない)  
+- kotline ファイル名(拡張子の有無は問わない)  
   コマンドを実行するとファイル名.jarが生成される
 
-- /usr/local/bin (macの場合)とかにおくとコマンドとして使える(はず)  
+- /usr/local/bin/ (macの場合)とかに置くとコマンドとして使える(bash,zsh)  
+- ~/.config/fish/functions/に置く  
 
 - 例  
 
 ```bash
-vim Hoge.kt
-kotlin-to-jar Hoge.kt
-java -jar Hoge.jar
+touch Hoge.kt
+kotline Hoge.kt
 ```
 
 or  
 
 ```bash
-vim Foo.kt
-kotlin-to-jar Foo
-java -jar Foo.jar
+touch Foo.kt
+kotline Foo
 ```
