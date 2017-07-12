@@ -4,6 +4,7 @@ str=$1
 if [ ${str#*.} = "kt" ]; then
   str=${str%.*}
 fi
-command="kotlinc ${str}.kt -include-runtime -d ${str}.jar"
-eval $command
+
+eval kotlinc ${str}.kt -include-runtime -d ${str}.jar
+eval java -jar ${str}.jar
 
