@@ -1,6 +1,13 @@
 # Shell-Script
 
 ## kotline
+
+### 2018/4/27追記
+現在のKotlinのバージョン(1.2.40)ではこのコマンドを使っても実行できないようです  
+`no main manifest attribute, in Hoge.jar`
+と言われます。  
+現在調査中ですので、このコマンド(kotline)が修正されるまでおまちください
+
 ### 環境
 - kotlincとjavaが入ってること
 
